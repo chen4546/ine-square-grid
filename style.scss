@@ -22,7 +22,7 @@ body {
   .item:nth-child(#{$index}) {
     background: hsl($i * 30, 100%, 60%);
   }
-  .container:has(.item:nth-child(#{$index}):hover) {
+  .container:has(.item:nth-child(#{$index}):click) {
     $r: floor(calc($i / 3 + 1));
     $c: $i % 3 + 1;
     $arr: 1fr 1fr 1fr;

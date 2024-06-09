@@ -24,7 +24,7 @@ body {
   background: hsl(0, 100%, 60%);
 }
 
-.container:has(.item:nth-child(1):hover) {
+.container:has(.item:nth-child(1):click) {
   grid-template-rows: 2fr 1fr 1fr;
   grid-template-columns: 2fr 1fr 1fr;
 }
@@ -33,7 +33,7 @@ body {
   background: hsl(30, 100%, 60%);
 }
 
-.container:has(.item:nth-child(2):hover) {
+.container:has(.item:nth-child(2):click) {
   grid-template-rows: 2fr 1fr 1fr;
   grid-template-columns: 1fr 2fr 1fr;
 }
@@ -42,7 +42,7 @@ body {
   background: hsl(60, 100%, 60%);
 }
 
-.container:has(.item:nth-child(3):hover) {
+.container:has(.item:nth-child(3):click) {
   grid-template-rows: 2fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 2fr;
 }
@@ -51,7 +51,7 @@ body {
   background: hsl(90, 100%, 60%);
 }
 
-.container:has(.item:nth-child(4):hover) {
+.container:has(.item:nth-child(4):click) {
   grid-template-rows: 1fr 2fr 1fr;
   grid-template-columns: 2fr 1fr 1fr;
 }
@@ -60,7 +60,7 @@ body {
   background: hsl(120, 100%, 60%);
 }
 
-.container:has(.item:nth-child(5):hover) {
+.container:has(.item:nth-child(5):click) {
   grid-template-rows: 1fr 2fr 1fr;
   grid-template-columns: 1fr 2fr 1fr;
 }
@@ -69,7 +69,7 @@ body {
   background: hsl(150, 100%, 60%);
 }
 
-.container:has(.item:nth-child(6):hover) {
+.container:has(.item:nth-child(6):click) {
   grid-template-rows: 1fr 2fr 1fr;
   grid-template-columns: 1fr 1fr 2fr;
 }
@@ -78,7 +78,7 @@ body {
   background: hsl(180, 100%, 60%);
 }
 
-.container:has(.item:nth-child(7):hover) {
+.container:has(.item:nth-child(7):click) {
   grid-template-rows: 1fr 1fr 2fr;
   grid-template-columns: 2fr 1fr 1fr;
 }
@@ -87,7 +87,7 @@ body {
   background: hsl(210, 100%, 60%);
 }
 
-.container:has(.item:nth-child(8):hover) {
+.container:has(.item:nth-child(8):click) {
   grid-template-rows: 1fr 1fr 2fr;
   grid-template-columns: 1fr 2fr 1fr;
 }
@@ -96,7 +96,7 @@ body {
   background: hsl(240, 100%, 60%);
 }
 
-.container:has(.item:nth-child(9):hover) {
+.container:has(.item:nth-child(9):click) {
   grid-template-rows: 1fr 1fr 2fr;
   grid-template-columns: 1fr 1fr 2fr;
 }
