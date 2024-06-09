@@ -22,7 +22,7 @@ body {
   .item:nth-child(#{$index}) {
     background: hsl($i * 30, 100%, 60%);
   }
-  .container:has(.item:nth-child(#{$index}):click) {
+  .container:has(.item:nth-child(#{$index}):hover) {
     $r: floor(calc($i / 3 + 1));
     $c: $i % 3 + 1;
     $arr: 1fr 1fr 1fr;
@@ -39,4 +39,23 @@ body {
     grid-template-rows: $row;
     grid-template-columns: $col;
   }
+}
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+body {
+  div {
+  }
+}
+.button:hover {
+  background: #555;
 }

@@ -24,7 +24,7 @@ body {
   background: hsl(0, 100%, 60%);
 }
 
-.container:has(.item:nth-child(1):click) {
+.container:has(.item:nth-child(1):hover) {
   grid-template-rows: 2fr 1fr 1fr;
   grid-template-columns: 2fr 1fr 1fr;
 }
@@ -33,7 +33,7 @@ body {
   background: hsl(30, 100%, 60%);
 }
 
-.container:has(.item:nth-child(2):click) {
+.container:has(.item:nth-child(2):hover) {
   grid-template-rows: 2fr 1fr 1fr;
   grid-template-columns: 1fr 2fr 1fr;
 }
@@ -42,7 +42,7 @@ body {
   background: hsl(60, 100%, 60%);
 }
 
-.container:has(.item:nth-child(3):click) {
+.container:has(.item:nth-child(3):hover) {
   grid-template-rows: 2fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 2fr;
 }
@@ -51,7 +51,7 @@ body {
   background: hsl(90, 100%, 60%);
 }
 
-.container:has(.item:nth-child(4):click) {
+.container:has(.item:nth-child(4):hover) {
   grid-template-rows: 1fr 2fr 1fr;
   grid-template-columns: 2fr 1fr 1fr;
 }
@@ -60,7 +60,7 @@ body {
   background: hsl(120, 100%, 60%);
 }
 
-.container:has(.item:nth-child(5):click) {
+.container:has(.item:nth-child(5):hover) {
   grid-template-rows: 1fr 2fr 1fr;
   grid-template-columns: 1fr 2fr 1fr;
 }
@@ -69,7 +69,7 @@ body {
   background: hsl(150, 100%, 60%);
 }
 
-.container:has(.item:nth-child(6):click) {
+.container:has(.item:nth-child(6):hover) {
   grid-template-rows: 1fr 2fr 1fr;
   grid-template-columns: 1fr 1fr 2fr;
 }
@@ -78,7 +78,7 @@ body {
   background: hsl(180, 100%, 60%);
 }
 
-.container:has(.item:nth-child(7):click) {
+.container:has(.item:nth-child(7):hover) {
   grid-template-rows: 1fr 1fr 2fr;
   grid-template-columns: 2fr 1fr 1fr;
 }
@@ -87,7 +87,7 @@ body {
   background: hsl(210, 100%, 60%);
 }
 
-.container:has(.item:nth-child(8):click) {
+.container:has(.item:nth-child(8):hover) {
   grid-template-rows: 1fr 1fr 2fr;
   grid-template-columns: 1fr 2fr 1fr;
 }
@@ -96,9 +96,26 @@ body {
   background: hsl(240, 100%, 60%);
 }
 
-.container:has(.item:nth-child(9):click) {
+.container:has(.item:nth-child(9):hover) {
   grid-template-rows: 1fr 1fr 2fr;
   grid-template-columns: 1fr 1fr 2fr;
+}
+
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #555;
 }
 
 /*# sourceMappingURL=style.css.map */
