@@ -20,7 +20,7 @@ body {
 @for $i from 0 through 8 {
   $index: $i + 1;
   .item:nth-child(#{$index}) {
-    background: hsl($i * 20, 100%, 60%);
+    background: hsl($i * 30, 100%, 60%);
   }
   .container:has(.item:nth-child(#{$index}):hover) {
     $r: floor(calc($i / 3 + 1));
